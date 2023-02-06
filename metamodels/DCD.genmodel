@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/TP4/src"
+    modelPluginID="TP4" modelName="DCD" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>DCD.ecore</foreignModel>
+  <genPackages prefix="DCD" disposableProviderFactory="true" ecorePackage="DCD.ecore#/">
+    <genClasses ecoreClass="DCD.ecore#//Package">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DCD.ecore#//Package/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DCD.ecore#//Package/elements"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="DCD.ecore#//Element">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DCD.ecore#//Element/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="DCD.ecore#//Type"/>
+    <genClasses ecoreClass="DCD.ecore#//Class">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DCD.ecore#//Class/attributes"/>
+    </genClasses>
+    <genClasses ecoreClass="DCD.ecore#//DataType"/>
+    <genClasses ecoreClass="DCD.ecore#//Attribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DCD.ecore#//Attribute/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DCD.ecore#//Attribute/isID"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DCD.ecore#//Attribute/minoccurs"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DCD.ecore#//Attribute/maxoccurs"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference DCD.ecore#//Attribute/type"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

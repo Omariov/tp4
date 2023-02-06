@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<DCD:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DCD="platform:/resource/TP4/metamodels/DCD.ecore" name="contact">
+  <elements xsi:type="DCD:Class" name="Contact">
+    <attributes name="num" isID="true" type="//@elements.1"/>
+    <attributes name="name" isID="false" type="//@elements.2"/>
+    <attributes name="address" isID="false" type="//@elements.2"/>
+    <attributes name="phone" isID="false" type="//@elements.2"/>
+  </elements>
+  <elements xsi:type="DCD:DataType" name="int"/>
+  <elements xsi:type="DCD:DataType" name="String"/>
+</DCD:Package>

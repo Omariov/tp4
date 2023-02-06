@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JSP="platform:/resource/TP4/metamodels/JSP.ecore">
+  <JSP:JSPPage title="contact">
+    <elements xsi:type="JSP:Table" name="table" item="Contact">
+      <rows name="tr">
+        <heads name="th" text="/1"/>
+        <heads name="th" text="/2"/>
+        <heads name="th" text="/3"/>
+        <heads name="th" text="/4"/>
+      </rows>
+    </elements>
+  </JSP:JSPPage>
+  <JSP:Text value="num"/>
+  <JSP:Text value="name"/>
+  <JSP:Text value="address"/>
+  <JSP:Text value="phone"/>
+</xmi:XMI>
